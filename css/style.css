@@ -1,0 +1,85 @@
+
+.container{
+
+    display: grid;
+    /* background-color: burlywood; */
+    height: 100vh;
+    background-color: #684BB1;
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.container .cabecalho{
+    /* background-color: chartreuse; */
+    margin: 41px 80px;
+}
+
+.container .main{
+    /* background-color: blueviolet; */
+    display: flex;
+   justify-content: center;
+}
+
+
+.container .main .informacoes {
+    margin-left: 60px;
+}
+
+.container .main .informacoes .titulo {
+    max-width: 487px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: Poppins;
+    margin: 24px 0 24px 0;
+  
+}
+
+.container .main .informacoes .informacao {
+    font-family: 'Open Sans';
+    font-size: 1.125rem;
+    max-width: 520px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.container .main .informacoes .btn-register {
+    padding: 13px 64px;
+    border-radius: 28px;
+    border: none;
+    font-size: 1.125rem;
+    color: #684BB1;
+    background-color: #fff;
+    margin-top: 24px;
+}
+
+
+
+
+
+.container .main .imagem{
+    /* background-color: crimson; */
+}
+
+.container .main .informacoes{
+    /* background-color: dimgrey; */
+}
+
+.container .footer{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.container .footer .fa-facebook-f, .fa-instagram, .fa-twitter{
+    color: #fff;
+    font-size: 1.5rem;
+    border: 2px solid #fff; 
+    padding: 25px;
+    border-radius: 50%;
+    margin: 16px;
+
+}
