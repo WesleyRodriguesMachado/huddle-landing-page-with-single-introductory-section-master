@@ -1,4 +1,11 @@
-@media(max-width:540px) {
+
+@media(max-width:1366px){
+    .container .main img{
+        max-width: 555px;
+    }
+}
+
+@media(max-width:960px) {
     .container {
         background-image: url(../images/bg-mobile.svg);
         max-height: 100%;
@@ -9,6 +16,41 @@
         max-height: 80px;
 
     }
+
+    .container .cabecalho img {
+        max-width: 180px;
+    }
+
+    .container .main .imagem img {
+        max-width: 400px;
+    }
+
+}
+@media(max-width:768px) {
+  
+  .container .main {
+        flex-direction: column;
+        max-height: 450px;
+    }
+    .container .cabecalho {
+        margin: 20px 20px 50px;
+        max-height: 80px;
+
+    }
+
+   
+    .container .cabecalho img {
+        max-width: 160px;
+    }
+
+    .container .main .imagem img {
+        max-width: 280px;
+    }
+
+}
+@media(max-width:540px) {
+    
+    
 
     .container .cabecalho img {
         max-width: 120px;

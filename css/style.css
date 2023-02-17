@@ -23,6 +23,10 @@
    align-items: center;
 }
 
+.container .main img{
+    max-width: 696px;
+}
+
 
 .container .main .informacoes {
     margin-left: 60px;
@@ -65,10 +69,12 @@
 
 .container .footer .fa-facebook-f, .fa-instagram, .fa-twitter{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     border: 2px solid #fff; 
-    padding: 25px;
+    padding: 10px;
     border-radius: 50%;
     margin: 16px;
+    width: 16px;
+    height: 16px;
 
 }
