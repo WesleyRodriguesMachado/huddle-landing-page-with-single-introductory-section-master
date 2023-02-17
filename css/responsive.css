@@ -1,0 +1,81 @@
+@media(max-width:540px) {
+    .container {
+        background-image: url(../images/bg-mobile.svg);
+        max-height: 100%;
+    }
+
+    .container .cabecalho {
+        margin: 38px 40px 10px;
+        max-height: 80px;
+
+    }
+
+    .container .cabecalho img {
+        max-width: 120px;
+    }
+
+    .container .main {
+        flex-direction: column;
+        max-height: 450px;
+    }
+
+    .container .main .imagem img {
+        max-width: 296px;
+    }
+
+    .container .main .informacoes {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .container .main .informacoes .titulo {
+        max-width: 280px;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .container .main .informacoes .informacao {
+
+        font-size: 1rem;
+        max-width: 304px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .container .main .informacoes .btn-register {
+        padding: 13px 80px;
+        font-size: 0.75rem;
+        max-width: 200px;
+        margin-bottom: 0px;
+
+    }
+
+    
+.container .footer{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    max-height: 50px;
+   
+}
+
+.container .footer .fa-facebook-f, .fa-instagram, .fa-twitter{
+    color: #fff;
+    font-size: 0.8rem;
+    border: 2px solid #fff; 
+    padding: 8px;
+     margin: 5px;
+   
+
+}
+
+    
+
+}
