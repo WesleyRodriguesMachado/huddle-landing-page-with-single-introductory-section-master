@@ -2,7 +2,6 @@
 .container{
 
     display: grid;
-    /* background-color: burlywood; */
     height: 100vh;
     background-color: #684BB1;
     background-image: url(../images/bg-desktop.svg);
