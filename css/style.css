@@ -1,28 +1,27 @@
+.container {
 
-.container{
 
-    display: grid;
-    height: 100vh;
     background-color: #684BB1;
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    
+    display: grid;
+    height: 100vh;
 }
 
-.container .cabecalho{
- 
+.container .cabecalho {
+
     margin: 41px 80px;
 }
 
-.container .main{
+.container .main {
 
+    align-items: center;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
 }
 
-.container .main img{
+.container .main img {
     max-width: 696px;
 }
 
@@ -32,48 +31,77 @@
 }
 
 .container .main .informacoes .titulo {
-    max-width: 487px;
-    font-size: 2.5rem;
-    font-weight: 600;
     color: #fff;
     font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 600;
     margin: 24px 0 24px 0;
-  
+    max-width: 487px;
+
 }
 
 .container .main .informacoes .informacao {
+    color: #fff;
     font-family: 'Open Sans';
     font-size: 1.125rem;
-    max-width: 520px;
     line-height: 27px;
-    color: #fff;
+    max-width: 520px;
 }
 
 .container .main .informacoes .btn-register {
-    padding: 13px 64px;
+    background-color: #fff;
     border-radius: 28px;
     border: none;
-    font-size: 1.125rem;
     color: #684BB1;
-    background-color: #fff;
+    cursor: pointer;
+    font-size: 1.125rem;
     margin-top: 24px;
+    padding: 13px 64px;
+    transition: 0.3s ease-in-out;
+
+
 }
 
-.container .footer{
-    
+.container .main .informacoes .btn-register{
+    transition: 0.3s ease-in-out;
+}
+
+.container .main .informacoes .btn-register:hover a{
+    color: #fff;
+   
+}
+
+.container .main .informacoes .btn-register:hover {
+    background-color: #E880E8;
+}
+
+.container .footer {
+
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
 }
 
-.container .footer .fa-facebook-f, .fa-instagram, .fa-twitter{
-    color: #fff;
-    font-size: 0.8rem;
-    border: 2px solid #fff; 
-    padding: 10px;
+.container .footer .fa-facebook-f,
+.fa-instagram,
+.fa-twitter {
     border-radius: 50%;
-    margin: 16px;
-    width: 16px;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
     height: 16px;
+    margin: 16px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    width: 16px;
 
 }
+
+.container .footer .fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-twitter:hover{
+    border-color: #E880E8;
+    color: #E880E8;
+}
+   
