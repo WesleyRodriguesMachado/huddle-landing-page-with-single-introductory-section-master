@@ -1,4 +1,10 @@
-@media(max-width:540px) {
+@media(max-width:1366px) {
+    .container .main img {
+        max-width: 555px;
+    }
+}
+
+@media(max-width:960px) {
     .container {
         background-image: url(../images/bg-mobile.svg);
         max-height: 100%;
@@ -9,6 +15,44 @@
         max-height: 80px;
 
     }
+
+    .container .cabecalho img {
+        max-width: 180px;
+    }
+
+    .container .main .imagem img {
+        max-width: 400px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .container .main {
+        flex-direction: column;
+        max-height: 450px;
+    }
+
+    .container .cabecalho {
+        margin: 20px 20px 50px;
+        max-height: 80px;
+
+    }
+
+
+    .container .cabecalho img {
+        max-width: 160px;
+    }
+
+    .container .main .imagem img {
+        max-width: 280px;
+    }
+
+}
+
+@media(max-width:540px) {
+
+
 
     .container .cabecalho img {
         max-width: 120px;
@@ -24,58 +68,60 @@
     }
 
     .container .main .informacoes {
-        margin-left: 0px;
+
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
-
+        margin-left: 0px;
     }
 
     .container .main .informacoes .titulo {
-        max-width: 280px;
         font-size: 1.5rem;
-        text-align: center;
         margin: 0;
+        max-width: 280px;
+        text-align: center;
 
     }
 
     .container .main .informacoes .informacao {
 
         font-size: 1rem;
-        max-width: 304px;
         line-height: 24px;
-        text-align: center;
         margin: 0;
+        max-width: 304px;
+        text-align: center;
 
     }
 
     .container .main .informacoes .btn-register {
-        padding: 13px 80px;
+
         font-size: 0.75rem;
-        max-width: 200px;
         margin-bottom: 10px;
+        max-width: 200px;
+        padding: 13px 80px;
+    }
+
+
+    .container .footer {
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        max-height: 50px;
 
     }
 
-    
-.container .footer{
-    display: flex;
-    justify-content: center;
-    margin-right: 0px;
-    max-height: 50px;
-   
-}
+    .container .footer .fa-facebook-f,
+    .fa-instagram,
+    .fa-twitter {
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 0.8rem;
+        margin: 5px;
+        padding: 8px;
 
-.container .footer .fa-facebook-f, .fa-instagram, .fa-twitter{
-    color: #fff;
-    font-size: 0.8rem;
-    border: 2px solid #fff; 
-    padding: 8px;
-     margin: 5px;
-   
 
-}
+    }
 
-    
+
 
 }
